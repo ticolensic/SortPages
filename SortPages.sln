@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortPages", "SortPages\SortPages.csproj", "{519FEA5A-03AB-424C-A07A-70DB6A6093AB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SortPagesSetup", "SortPagesSetup\SortPagesSetup.vdproj", "{03DFEFC5-0E94-4DA2-8C81-9209A9BA996D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{519FEA5A-03AB-424C-A07A-70DB6A6093AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{519FEA5A-03AB-424C-A07A-70DB6A6093AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{519FEA5A-03AB-424C-A07A-70DB6A6093AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{519FEA5A-03AB-424C-A07A-70DB6A6093AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DFEFC5-0E94-4DA2-8C81-9209A9BA996D}.Debug|Any CPU.ActiveCfg = Debug
+		{03DFEFC5-0E94-4DA2-8C81-9209A9BA996D}.Release|Any CPU.ActiveCfg = Release
+		{03DFEFC5-0E94-4DA2-8C81-9209A9BA996D}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

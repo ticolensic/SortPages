@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon>
+    <tabs>
+      <tab id="tabSort" label="SORT">
+        <group id="groupSort"
+               label="Sort">
+          <button id="DMdesc" label="Created Time Descending" size="large" screentip="Earlier objects to the bottom" onAction="AddInButtonClicked"/>
+          <button id="DMasc" label="Created Time Ascending" size="large" screentip="Earlier objects to the top" onAction="AddInButtonClicked"/>
+
+          <button id="LMdesc" label="Modified Time Descending" size="large" screentip="Earlier objects to the bottom" onAction="AddInButtonClicked"/>
+          <button id="LMasc" label="Modified Time Ascending" size="large" screentip="Earlier objects to the top" onAction="AddInButtonClicked"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
